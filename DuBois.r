@@ -34,7 +34,7 @@ p<-freed.slaves %>%
                                            freed.slaves$Pct!=100), 
             aes(label=paste0(100-Pct,"%")), size = 16, vjust=-0.6, 
             fontface = "bold", family = "Charter")+
-  labs(title = "\nPROPORTION OF FREEMAN AND SLAVE AMONG AMERICAN NEGROES .
+  labs(title = "\nPROPORTION OF FREEMEN AND SLAVE AMONG AMERICAN NEGROES .
            \n PROPORTION DES NÈGRES LIBRES ET DES ESCLAVES EN AMÉRIQUE .",
        subtitle = "\n  \n DONE BY ATLANTA UNIVERSITY .\n\n\n\n",
        caption = "@baseballrick for #TidyTuesday, Recreation of W.E.B. DuBois data viz #DuBoisChallenge")+
