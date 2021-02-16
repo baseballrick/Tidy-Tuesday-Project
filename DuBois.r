@@ -16,7 +16,7 @@ font_add(family = "Charter", regular = "Charter.ttc")
 tuesdata <- tidytuesdayR::tt_load('2021-02-16')
 tuesdata <- tidytuesdayR::tt_load(2021, week = 8)
 
-#Isolate  freed slves data into its own data frames
+#Isolate  freed slaves data into its own data frames
 freed.slaves <- tuesdata$freed_slaves
 
 # Pivot df into longer df
